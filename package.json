@@ -1,0 +1,35 @@
+{
+  "name": "step_project_forkio_local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feroxes/step_project_forkio.git"
+  },
+  "author": "Yaroslav Harmash & Denis Kanivets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feroxes/step_project_forkio/issues"
+  },
+  "homepage": "https://github.com/feroxes/step_project_forkio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "browser-sync": "^2.26.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "imagemin-pngquant": "^6.0.0"
+  }
+}
