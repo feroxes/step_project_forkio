@@ -1,4 +1,19 @@
 $main-color: #8d81ac;
+$grey: #737b84;
 
-$lato: 'Lato', sans-serif;
-$montserrat: 'Montserrat', sans-serif;
+$Lato: 'Lato', sans-serif;
+$Montserrat: 'Montserrat', sans-serif;
+
+@mixin main_button {
+  .button {
+    height: 36px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background: $main-color;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0px;
+  }
+}
