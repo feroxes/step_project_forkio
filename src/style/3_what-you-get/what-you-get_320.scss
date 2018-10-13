@@ -1,0 +1,60 @@
+.container {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1200px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .what-you-get {
+    background-color: #f4f4f4;
+    .sectionLogo {
+      margin: 0 auto;
+      padding: 34px 0;
+      width: 227px;
+      color: $mainColor;
+      font-family: $Lato;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38px;
+    }
+
+    .mainMenu {
+
+      .block {
+        text-align: center;
+
+        .blockImg {
+
+        }
+
+        .blockText {
+
+          &__topic {
+            width: 268px;
+            color: #323232;
+            font-family: $Montserrat;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21px;
+            margin: 29px auto 21px auto;
+          }
+          &__info {
+            width: 264px;
+            color: #848e97;
+            font-family: $Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .editor {
+      height: 380px;
+      margin-top: 57px;
+      background: url("../img/editor.png");
+
+    }
+  }
+}
