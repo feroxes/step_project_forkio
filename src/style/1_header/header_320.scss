@@ -1,74 +1,108 @@
+.container{
+  min-width: 320px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 @media screen and (min-width: 320px) and (max-width: 400px) {
   .header {
     height: 720px;
     width: 100vw;
-  }
-  .nav-bar {
-    height: 104px;
-    width: 100vw;
-    background: #27262a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
-    .logo {
-      height: 40px;
-      width: 43px;
-      background: url("../img/logo.png");
-      margin-left: 10px;
-    }
-    .button {
-      height: 36px;
-      width: 120px;
-      color: #fff;
-      background: $main-color;
-      border-radius: 50px;
-      cursor: pointer;
-      border: 0px;
-    }
-    .menu {
-      height: 100%;
-      position: relative;
-    }
-    .fa-bars {
-      color: #fff;
-      margin-right: 10px;
-      font-size: 30px;
-      margin-top: 35px;
-    }
-    .fa-times {
-      color: #fff;
-      margin-right: 10px;
-      font-size: 30px;
-      margin-top: 35px;
-      display: none;
-    }
-    .menu_drop-down{
-      position: absolute;
-      left: -284px;
-      top: 100%;
+    background: url("../img/head_backgroud.png") center;
+    @include main_button;
+    .nav-bar {
+      height: 104px;
       width: 100vw;
-      background: #333333;
-      li {
-        border-bottom: 2px solid #3b3b3b;
-        margin-top: 25px;
+      background: #27262a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .logo {
+        height: 40px;
+        width: 43px;
+        background: url("../img/logo.png");
+        margin-left: 10px;
+      }
+      .menu {
+        height: 100%;
+        position: relative;
+        width: 40px;
+      }
+      .fa-bars {
         color: #fff;
-        padding-left: 20px;
-        vertical-align: center;
-        height: 45px;
-        font-size: 18px;
+        margin-right: 10px;
+        font-size: 30px;
+        margin-top: 35px;
       }
-      span{
-        border-left: 4px solid #333333;
+      .fa-times {
+        color: #fff;
+        margin-right: 10px;
+        font-size: 30px;
+        margin-top: 35px;
+        display: none;
       }
-      span:hover {
-        color: $main-color;
-        border-left: 4px solid $main-color;
-        margin-left: -21px;
-        padding-left: 21px;
+      .menu_drop-down{
+        position: absolute;
+        right: 0px;
+        top: 100%;
+        width: 100vw;
+        background: #333333;
+        display: none;
+        li {
+          border-bottom: 2px solid #3b3b3b;
+          margin-top: 25px;
+          color: #fff;
+          padding-left: 20px;
+          vertical-align: center;
+          height: 45px;
+          font-size: 18px;
+        }
+        a{
+          border-left: 4px solid #333333;
+          color: #fff;
+          font-family: $Lato;
+        }
+        a:hover {
+          color: $main-color;
+          border-left: 4px solid $main-color;
+          margin-left: -21px;
+          padding-left: 21px;
+        }
       }
     }
-
+    h1{
+      font-family: $Montserrat;
+      font-weight: bold;
+      color: #fff;
+      font-size: 48px;
+      padding: 40px 0 30px 0;
+      text-align: center;
+    }
+    p{
+      font-family: $Montserrat;
+      color: $main-color;
+      font-size: 18px;
+      line-height: 30px;
+      padding: 0 10px 0 10px;
+      text-align: center;
+    }
+    span{
+      color: $grey;
+      font-size: 14px;
+    }
+    .button_large{
+      width: 290px;
+      height: 45px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .header-button{
+      position: relative;
+      top: 385px;
+      text-align: center;
+      p{
+        color: $grey;
+        font-size: 14px;
+      }
+    }
   }
 }
