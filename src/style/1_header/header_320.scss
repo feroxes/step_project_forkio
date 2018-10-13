@@ -2,6 +2,20 @@
   .header {
     height: 720px;
     width: 100vw;
+    background: url("../img/head_backgroud.png");
+
+    h1{
+      font-family: $montserrat;
+      font-weight: bold;
+      color: #fff;
+      font-size: 48px;
+    }
+    p{
+      font-family: $montserrat;
+      color: $main-color;
+      font-size: 18px;
+
+    }
   }
   .nav-bar {
     height: 104px;
@@ -30,6 +44,7 @@
     .menu {
       height: 100%;
       position: relative;
+      width: 40px;
     }
     .fa-bars {
       color: #fff;
@@ -46,10 +61,11 @@
     }
     .menu_drop-down{
       position: absolute;
-      left: -284px;
+      left: -280px;
       top: 100%;
       width: 100vw;
       background: #333333;
+      display: none;
       li {
         border-bottom: 2px solid #3b3b3b;
         margin-top: 25px;
@@ -59,10 +75,12 @@
         height: 45px;
         font-size: 18px;
       }
-      span{
+      a{
         border-left: 4px solid #333333;
+        color: #fff;
+        font-family: $lato;
       }
-      span:hover {
+      a:hover {
         color: $main-color;
         border-left: 4px solid $main-color;
         margin-left: -21px;
