@@ -1,0 +1,113 @@
+@media screen and (min-width: 320px){
+
+  .footer {
+
+    .container {
+
+      .footerSections {
+        padding-bottom: 50px;
+
+        .forkio {
+
+          &__logo {
+            margin: 40px 0 36px 20px;
+            width: 100px;
+
+            &--img {
+              width: 41px;
+              height: 43px;
+            }
+
+            &--FORK {
+              color: #333333;
+              font-family: $Montserrat;
+              font-size: 24px;
+              font-weight: 400;
+            }
+
+            &--IO {
+              color: #8d81ac;
+              font-family: $Montserrat;
+              font-size: 24px;
+              font-weight: 400;
+            }
+          }
+
+          &__text {
+            @include footerText;
+            margin-left: 20px;
+          }
+
+          &__logo:hover {
+            cursor: pointer;
+          }
+          &__logo:hover .forkio__logo--FORK {
+            color: #8d81ac;
+          }
+          &__logo:hover .forkio__logo--IO {
+            color: #333333;
+          }
+        }
+
+        .navigation {
+
+          &__main {
+            @include footerMain;
+            margin: 36px 0 23px 20px;
+          }
+
+          &__list {
+           @include footerText;
+            margin-left: 20px;
+            width: 110px;
+
+            li:hover {
+              text-decoration: underline;
+              color: #8d81ac;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .contacts {
+
+          &__nmbr {
+            color: #31384d;
+            font-family: $Montserrat;
+            font-size: 30px;
+            font-weight: 700;
+            margin: 36px 0 15px 20px;
+          }
+
+          &__hours {
+            @include footerText;
+            margin-left: 20px;
+          }
+
+          &__city {
+            @include footerMain;
+            margin: 36px 0 20px 20px;
+          }
+
+          &__adress {
+            @include footerText;
+            margin-left: 20px;
+          }
+        }
+
+        .info {
+
+          &__main {
+            @include footerMain;
+            margin: 36px 0 24px 20px;
+          }
+
+          &__text {
+            @include footerText;
+            margin:0 30px 0 20px;
+          }
+        }
+      }
+    }
+  }
+}

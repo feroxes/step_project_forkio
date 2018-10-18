@@ -1,0 +1,47 @@
+@media screen and (min-width: 401px) {
+  .what-you-get {
+
+    .container {
+
+      .sectionLogo {
+        padding-top: 47px;
+        padding-bottom: 68px;
+        font-size: 42px;
+        line-height: 54px;
+      }
+
+      .mainMenu {
+
+        .block {
+          display: inline-flex;
+          justify-content: space-around;
+
+          .blockImg {
+            margin-top: 0;
+            padding-left: 5px;
+            flex-basis: 20%;
+          }
+
+          .blockText {
+            flex-basis: 70%;
+
+            &__topic {
+              margin: 0 auto 21px auto;
+              text-align: left;
+            }
+            &__info {
+              margin-bottom: 45px;
+              text-align: left;
+            }
+          }
+        }
+      }
+      .editor {
+        height: 519px;
+        margin-top: 37px;
+        background: url("../img/editor.png") no-repeat;
+
+      }
+    }
+  }
+}

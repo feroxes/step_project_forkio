@@ -1,5 +1,4 @@
 $mainColor: #8d81ac;
-$main-color: #8d81ac;
 $grey: #737b84;
 
 $Lato: 'Lato', sans-serif;
@@ -12,9 +11,24 @@ $Montserrat: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: #fff;
-    background: $main-color;
+    background: $mainColor;
     border-radius: 50px;
     cursor: pointer;
     border: 0px;
   }
+}
+
+@mixin footerText {
+  color: #848e97;
+  font-family: $Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+@mixin footerMain {
+  color: #323232;
+  font-family: $Montserrat;
+  font-size: 16px;
+  font-weight: 400;
 }

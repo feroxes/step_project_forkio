@@ -4,57 +4,63 @@
   max-width: 1200px;
 }
 
-@media (min-width: 320px) and (max-width: 400px) {
+@media screen and (min-width: 320px) {
   .what-you-get {
     background-color: #f4f4f4;
-    .sectionLogo {
-      margin: 0 auto;
-      padding: 34px 0;
-      width: 227px;
-      color: $mainColor;
-      font-family: $Lato;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 38px;
-    }
 
-    .mainMenu {
+    .container {
 
-      .block {
+      .sectionLogo {
+        margin: 0 auto;
+        padding-top: 34px;
+        width: 70vw;
         text-align: center;
+        color: $mainColor;
+        font-family: $Lato;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+      }
 
-        .blockImg {
+      .mainMenu {
 
-        }
+        .block {
+          text-align: center;
 
-        .blockText {
-
-          &__topic {
-            width: 268px;
-            color: #323232;
-            font-family: $Montserrat;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 21px;
-            margin: 29px auto 21px auto;
+          .blockImg {
+            width: 111px;
+            margin: 34px auto 0 auto;
           }
-          &__info {
-            width: 264px;
-            color: #848e97;
-            font-family: $Lato;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 21px;
+
+          .blockText {
             margin: 0 auto;
+            padding: 0 5px;
+
+            &__topic {
+              color: #323232;
+              font-family: $Montserrat;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 21px;
+              margin: 29px auto 21px auto;
+            }
+            &__info {
+              color: #848e97;
+              font-family: $Lato;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 21px;
+              margin: 0 auto;
+            }
           }
         }
       }
-    }
-    .editor {
-      height: 380px;
-      margin-top: 57px;
-      background: url("../img/editor.png");
+      .editor {
+        height: 381px;
+        margin-top: 57px;
+        background: url("../img/editor(320).png");
 
+      }
     }
   }
 }

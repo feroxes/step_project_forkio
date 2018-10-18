@@ -62,8 +62,8 @@
           font-family: $Lato;
         }
         a:hover {
-          color: $main-color;
-          border-left: 4px solid $main-color;
+          color: $mainColor;
+          border-left: 4px solid $mainColor;
           margin-left: -21px;
           padding-left: 21px;
         }
@@ -79,7 +79,7 @@
     }
     p{
       font-family: $Montserrat;
-      color: $main-color;
+      color: $mainColor;
       font-size: 18px;
       line-height: 30px;
       padding: 0 10px 0 10px;

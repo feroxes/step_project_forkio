@@ -1,0 +1,35 @@
+@media screen and (min-width: 993px) {
+  .subscribe {
+
+    .container {
+      padding: 45px 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+
+      .subscribeCallback{
+        padding: 0 2vw 0 0;
+      }
+
+      .showSecond {
+
+      }
+
+      .inputs {
+        display: inline-flex;
+
+        &__text {
+          width: 23vw;
+          max-width: 310px;
+          margin: 0 1vw;
+        }
+
+      }
+
+      .subscribeCallButton {
+        margin: 0;
+      }
+    }
+  }
+}

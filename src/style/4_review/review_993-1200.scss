@@ -1,10 +1,10 @@
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 993px) {
   .review {
 
     .container {
 
       .slick-slider {
-        margin: 50px auto 83px auto;
+        margin: 87px auto 118px auto;
 
         .slider {
 
@@ -14,7 +14,7 @@
 
           &__name {
 
-            &--fullName {
+            &--fullName{
 
             }
             &--nick {
@@ -23,7 +23,7 @@
           }
 
           &__comment {
-            font-size: 20px;
+
           }
 
           &__time {
@@ -41,19 +41,16 @@
       }
 
       .socialMedia {
-        display: inline-flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        width: 100%;
+        flex-wrap: nowrap;
 
         .github {
-          flex-basis: 50%;
+          flex-basis: auto;
 
           &__button {
-            width: 238px;
+
 
             &--icon {
-              padding: 0 39px 0 17px;
+
             }
 
             &--text {
@@ -67,13 +64,13 @@
         }
 
         .twitter {
-          flex-basis: 50%;
+          flex-basis: auto;
 
           &__button {
-            width: 238px;
+
 
             &--icon {
-              padding: 0 40px 0 17px;
+
             }
 
             &--text {
@@ -87,13 +84,14 @@
         }
 
         .facebook {
-          flex-basis: 100%;
+          flex-basis: auto;
+          margin-bottom: 80px;
 
           &__button {
-            width: 238px;
+
 
             &--icon {
-              padding: 0 35px 0 17px;
+
             }
 
             &--text {

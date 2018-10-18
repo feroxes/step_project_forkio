@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Step project Forkio</title>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="build/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:300,400,500,600,700"
           rel="stylesheet">
+
 </head>
 <body>
 <!-- -----------------------Section header----------------------- -->
 <section class="header">
-    This is header section!
-</section>
-<!-- -----------------------Section revolutionary-editor----------------------- -->
-<section class="revolutionary-editor">
     <div class="container">
         <div class="nav-bar">
             <a href="#">
@@ -47,6 +48,11 @@
 </section>
 <!-- -----------------------Section revolutionary-editor----------------------- -->
 <section class="revolutionary-editor">
+    <br/>
+    <br/>
+    <br/><br/>
+    <br/>
+
     This is revolutionary-editor section!
 </section>
 <!-- -----------------------Section what-you-get----------------------- -->
@@ -55,39 +61,43 @@
         <div class="sectionLogo">&#60;Here is what you get&#62;</div>
         <div class="mainMenu">
             <div class="block">
-                <img class="blockImg" src="build/img/icon1.png">
+                <div class="blockImg"><img src="build/img/icon1.png"></div>
                 <div class="blockText">
                     <div class="blockText__topic">Created to Make The Web Better</div>
                     <div class="blockText__info">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui
-                        laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.
+                        laoreet
+                        vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.
                     </div>
                 </div>
             </div>
             <div class="block">
-                <img src="build/img/icon2.png">
+                <div class="blockImg"><img src="build/img/icon2.png"></div>
                 <div class="blockText">
                     <div class="blockText__topic">Incredibly Powerful Tool</div>
-                    <div class="blockText__info">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio,
+                    <div class="blockText__info">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis
+                        odio,
                         ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat
                         volutpat.
                     </div>
                 </div>
             </div>
             <div class="block">
-                <img src="build/img/icon3.png">
+                <div class="blockImg"><img src="build/img/icon3.png"></div>
                 <div class="blockText">
                     <div class="blockText__topic">Experimental Stuff</div>
-                    <div class="blockText__info">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio,
+                    <div class="blockText__info">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis
+                        odio,
                         ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat
                         volutpat.
                     </div>
                 </div>
             </div>
             <div class="block">
-                <img src="build/img/icon4.png">
+                <div class="blockImg"><img src="build/img/icon4.png"></div>
                 <div class="blockText">
                     <div class="blockText__topic">Created to Make The Web Better</div>
-                    <div class="blockText__info">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio,
+                    <div class="blockText__info">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis
+                        odio,
                         ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat
                         volutpat.
                     </div>
@@ -99,10 +109,71 @@
 </section>
 <!-- -----------------------Section review----------------------- -->
 <section class="review">
-    This is review section!
+    <div class="container">
+        <div class="slick-slider">
+            <div class="slider">
+                <div class="slider__img"><img src="build/img/userpic1.png"></div>
+                <div class="slider__name">
+                    <div class="slider__name--fullName">Mike Green</div>
+                    <div class="slider__name--nick">@M_Green</div>
+                </div>
+                <div class="slider__comment">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet
+                    vulputate dignissim.
+                </div>
+                <div class="slider__time">2 hours ago</div>
+            </div>
+            <div class="slider">
+                <div class="slider__img"><img src="build/img/userpic2.png"></div>
+                <div class="slider__name">
+                    <div class="slider__name--fullName">Steven Strange</div>
+                    <div class="slider__name--nick">@DoctorS</div>
+                </div>
+                <div class="slider__comment">Suspendisse sodales sem est, in scelerisque felis scelerisque
+                    in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.
+                </div>
+                <div class="slider__time">1 day ago</div>
+            </div>
+            <div class="slider">
+                <div class="slider__img"><img src="build/img/userpic3.png"></div>
+                <div class="slider__name">
+                    <div class="slider__name--fullName">Luke Ingram</div>
+                    <div class="slider__name--nick">@Luke_I92</div>
+                </div>
+                <div class="slider__comment">Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                    lobortis nisl ut aliquip ex commodo consequat.
+                </div>
+                <div class="slider__time">9 hours ago</div>
+            </div>
+        </div>
+        <i class="fas fa-chevron-left"></i>
+        <i class="fas fa-chevron-right"></i>
+        <div class="socialMedia">
+            <div class="github">
+                <button class="github__button">
+                    <i class="fab fa-github github__button--icon"></i>
+                    <span class="github__button--text">GitHub</span>
+                </button>
+                <div class="github__follow">7 352 Followers</div>
+            </div>
+            <div class="twitter">
+                <button class="twitter__button">
+                    <i class="fab fa-twitter twitter__button--icon"></i>
+                    <span class="twitter__button--text">Twitter</span>
+                </button>
+                <div class="twitter__follow">136 312 Followers</div>
+            </div>
+            <div class="facebook">
+                <button class="facebook__button">
+                    <i class="fab fa-facebook-f facebook__button--icon"></i>
+                    <span class="facebook__button--text">Facebook</span>
+                </button>
+                <div class="facebook__follow">218 092 Subscribes</div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- -----------------------Section people-are-talking----------------------- -->
-<section class="people-are-talking">
+<section class="people-are-talking" style="background: green">
     This is people-are-talking section!
 </section>
 <!-- -----------------------Section fork-subscription----------------------- -->
@@ -111,13 +182,58 @@
 </section>
 <!-- -----------------------Section subscribe----------------------- -->
 <section class="subscribe">
-    This is subscribe section!
+    <div class="container">
+        <div class="subscribeCallback showFirst">Subscribe To Stay In Touch</div>
+        <div class="subscribeCallback showSecond">Order Callback</div>
+        <div>
+            <label class="inputs">
+                <input class="inputs__text" type="text" placeholder="Your name">
+                <input class="inputs__text" type="text" placeholder="Phone">
+            </label>
+        </div>
+        <div>
+            <button class="subscribeCallButton showFirst">SUBSCRIBE</button>
+            <button class="subscribeCallButton showSecond">Call Me!</button>
+        </div>
+    </div>
 </section>
 <!-- -----------------------Section footer----------------------- -->
 <section class="footer">
-    This is footer section!
+    <div class="container">
+        <div class="footerSections">
+            <div class="forkio">
+                <div class="forkio__logo">
+                    <div class="forkio__logo--img"></div>
+                    <span class="forkio__logo--FORK"> FORK</span><span class="forkio__logo--IO">IO</span>
+                </div>
+                <div class="forkio__text">Lorem ipsum dolor sit amet, feugiat<br>delicat liberavisse id cum no quo.
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="navigation__main">Navigation</div>
+                <ul class="navigation__list">
+                    <li>Home</li>
+                    <li>Overview</li>
+                    <li>About</li>
+                    <li>Buying Options</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <div class="contacts__nmbr">347 567 78 90</div>
+                <div class="contacts__hours">AVAILABLE AT 12PM - 18PM</div>
+                <div class="contacts__city">New York, NY</div>
+                <div class="contacts__adress">560 Judah St & 15th Ave, Apt 5<br>San Francisco, CA, 230903</div>
+            </div>
+            <div class="info">
+                <div class="info__main">Info</div>
+                <div class="info__text">Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                    lobortis nisl ut aliquip ex commodo consequat. Autem vel hendrerit iriure dolor in hendrerit.
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-
 
 <script src="build/js/main.js"></script>
 </body>
