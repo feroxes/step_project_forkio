@@ -1,0 +1,18 @@
+@media screen and (min-width: 401px) {
+  .people-are-talking{
+    .cont{
+      h1{
+        font-size: 42px;
+        line-height: 60px;
+      }
+      .aboutFork{
+        &__cont{
+          max-width: 330px;
+          p{
+            margin-bottom: 50px;
+          }
+        }
+      }
+    }
+  }
+}
