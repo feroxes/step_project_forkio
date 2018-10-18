@@ -1,0 +1,84 @@
+@media screen and (min-width: 993px) {
+
+  .footer {
+
+    .container {
+
+      .footerSections {
+        flex-wrap: nowrap;
+
+        .forkio {
+          flex-basis: 25%;
+
+          &__logo {
+            margin-top: 35px;
+
+            &--img {
+
+            }
+
+            &--FORK {
+
+            }
+
+            &--IO {
+
+            }
+
+          }
+
+          &__text {
+
+          }
+        }
+
+        .navigation {
+          flex-basis: 25%;
+
+          &__main {
+            margin-top: 60px;
+
+          }
+
+          &__list {
+
+          }
+        }
+
+        .contacts {
+          flex-basis: 25%;
+
+          &__nmbr {
+            margin-top: 60px;
+
+          }
+
+          &__hours {
+
+          }
+
+          &__city {
+
+          }
+
+          &__adress {
+
+          }
+        }
+
+        .info {
+          flex-basis: 25%;
+
+          &__main {
+            margin-top: 60px;
+
+          }
+
+          &__text {
+
+          }
+        }
+      }
+    }
+  }
+}

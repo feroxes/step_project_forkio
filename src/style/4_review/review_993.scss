@@ -1,0 +1,109 @@
+@media screen and (min-width: 993px) {
+  .review {
+
+    .container {
+
+      .slick-slider {
+        margin: 87px auto 118px auto;
+
+        .slider {
+
+          &__img {
+
+          }
+
+          &__name {
+
+            &--fullName{
+
+            }
+            &--nick {
+
+            }
+          }
+
+          &__comment {
+
+          }
+
+          &__time {
+
+          }
+        }
+      }
+
+      .fa-chevron-left {
+
+      }
+
+      .fa-chevron-right {
+
+      }
+
+      .socialMedia {
+        flex-wrap: nowrap;
+
+        .github {
+          flex-basis: auto;
+
+          &__button {
+
+
+            &--icon {
+
+            }
+
+            &--text {
+
+            }
+          }
+
+          &__follow {
+
+          }
+        }
+
+        .twitter {
+          flex-basis: auto;
+
+          &__button {
+
+
+            &--icon {
+
+            }
+
+            &--text {
+
+            }
+          }
+
+          &__follow {
+
+          }
+        }
+
+        .facebook {
+          flex-basis: auto;
+          margin-bottom: 80px;
+
+          &__button {
+
+
+            &--icon {
+
+            }
+
+            &--text {
+
+            }
+          }
+
+          &__follow {
+
+          }
+        }
+      }
+    }
+  }
+}

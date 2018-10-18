@@ -1,0 +1,111 @@
+@media screen and (min-width: 481px) {
+  .review {
+
+    .container {
+
+      .slick-slider {
+        margin: 50px auto 83px auto;
+
+        .slider {
+
+          &__img {
+
+          }
+
+          &__name {
+
+            &--fullName {
+
+            }
+            &--nick {
+
+            }
+          }
+
+          &__comment {
+            font-size: 20px;
+          }
+
+          &__time {
+
+          }
+        }
+      }
+
+      .fa-chevron-left {
+
+      }
+
+      .fa-chevron-right {
+
+      }
+
+      .socialMedia {
+        display: inline-flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .github {
+          flex-basis: 50%;
+
+          &__button {
+            width: 238px;
+
+            &--icon {
+              padding: 0 39px 0 17px;
+            }
+
+            &--text {
+
+            }
+          }
+
+          &__follow {
+
+          }
+        }
+
+        .twitter {
+          flex-basis: 50%;
+
+          &__button {
+            width: 238px;
+
+            &--icon {
+              padding: 0 40px 0 17px;
+            }
+
+            &--text {
+
+            }
+          }
+
+          &__follow {
+
+          }
+        }
+
+        .facebook {
+          flex-basis: 100%;
+
+          &__button {
+            width: 238px;
+
+            &--icon {
+              padding: 0 35px 0 17px;
+            }
+
+            &--text {
+
+            }
+          }
+
+          &__follow {
+
+          }
+        }
+      }
+    }
+  }
+}

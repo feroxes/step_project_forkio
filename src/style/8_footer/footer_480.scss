@@ -1,0 +1,83 @@
+@media screen and (min-width: 401px) {
+
+  .footer {
+
+    .container {
+
+      .footerSections {
+
+        .forkio {
+
+          &__logo {
+            width: 160px;
+
+            &--img {
+              display: inline-block;
+              background-image: url("../img/logo.png");
+              position: relative;
+              top: 10px;
+            }
+
+            &--FORK {
+              padding-left: 10px;
+            }
+
+            &--IO {
+
+            }
+
+          }
+
+          &__logo:hover .forkio__logo--img {
+            background-image: url("../img/logo_black.png");
+          }
+
+          &__text {
+
+          }
+        }
+
+        .navigation {
+
+          &__main {
+
+          }
+
+          &__list {
+
+          }
+        }
+
+        .contacts {
+
+          &__nmbr {
+
+          }
+
+          &__hours {
+
+          }
+
+          &__city {
+
+          }
+
+          &__adress {
+
+          }
+        }
+
+        .info {
+
+          &__main {
+
+          }
+
+          &__text {
+
+          }
+        }
+      }
+    }
+  }
+}

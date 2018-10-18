@@ -1,0 +1,81 @@
+@media screen and (min-width: 481px) {
+
+  .footer {
+
+    .container {
+
+      .footerSections {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .forkio {
+          flex-basis: 50%;
+          &__logo {
+            margin-top: 10px;
+
+            &--img {
+
+            }
+
+            &--FORK {
+
+            }
+
+            &--IO {
+
+            }
+
+          }
+
+          &__text {
+
+          }
+        }
+
+        .navigation {
+
+          flex-basis: 50%;
+          &__main {
+
+          }
+
+          &__list {
+
+          }
+        }
+
+        .contacts {
+
+          flex-basis: 50%;
+          &__nmbr {
+
+          }
+
+          &__hours {
+
+          }
+
+          &__city {
+
+          }
+
+          &__adress {
+
+          }
+        }
+
+        .info {
+
+          flex-basis: 50%;
+          &__main {
+
+          }
+
+          &__text {
+
+          }
+        }
+      }
+    }
+  }
+}

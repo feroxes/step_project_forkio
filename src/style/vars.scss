@@ -17,3 +17,18 @@ $Montserrat: 'Montserrat', sans-serif;
     border: 1px solid $mainColor;
   }
 }
+
+@mixin footerText {
+  color: #848e97;
+  font-family: $Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+@mixin footerMain {
+  color: #323232;
+  font-family: $Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+}

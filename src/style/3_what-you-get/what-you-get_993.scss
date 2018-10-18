@@ -1,0 +1,51 @@
+@media screen and (min-width: 993px) {
+  .what-you-get {
+    height: 700px;
+    position: relative;
+
+    .container {
+
+      .sectionLogo {
+        padding: 80px 0 0 0;
+        font-size: 48px;
+        text-align: left;
+        width: auto;
+        position: absolute;
+        left: 50%;
+      }
+
+      .mainMenu {
+        padding-top: 80px;
+        float: left;
+        width: 50%;
+        .block {
+
+          .blockImg {
+            padding-left: 10px;
+          }
+
+          .blockText {
+            padding: 0 10px 0 0;
+
+            &__topic {
+              margin: 0 auto 21px auto;
+              text-align: left;
+            }
+            &__info {
+              margin: 18px 0 34px 0;
+              text-align: left;
+            }
+          }
+        }
+      }
+
+      .editor {
+        margin-top: 140px;
+        float: right;
+        width: 50%;
+        position: absolute;
+        left: 50%;
+      }
+    }
+  }
+}
