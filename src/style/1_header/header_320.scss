@@ -1,75 +1,90 @@
-.container{
-  min-width: 320px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-@media screen and (min-width: 320px) and (max-width: 400px) {
+@media screen and (min-width: 320px) {
   .header {
     height: 720px;
     width: 100vw;
     background: url("../img/head_backgroud.png") center;
+    background-size: cover;
+    margin: 0 auto;
     @include main_button;
-    .nav-bar {
-      height: 104px;
+    .container {
+      height: 110px;
       width: 100vw;
       background: #27262a;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      .logo {
-        height: 40px;
-        width: 43px;
-        background: url("../img/logo.png");
-        margin-left: 10px;
-      }
-      .menu {
-        height: 100%;
-        position: relative;
-        width: 40px;
-      }
-      .fa-bars {
-        color: #fff;
-        margin-right: 10px;
-        font-size: 30px;
-        margin-top: 35px;
-      }
-      .fa-times {
-        color: #fff;
-        margin-right: 10px;
-        font-size: 30px;
-        margin-top: 35px;
-        display: none;
-      }
-      .menu_drop-down{
-        position: absolute;
-        right: 0px;
-        top: 100%;
+      .nav-bar {
+        height: 100px;
         width: 100vw;
-        background: #333333;
-        display: none;
-        li {
-          border-bottom: 2px solid #3b3b3b;
-          margin-top: 25px;
-          color: #fff;
-          padding-left: 20px;
-          vertical-align: center;
-          height: 45px;
-          font-size: 18px;
+        background: #27262a;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        .logo {
+          height: 40px;
+          width: 43px;
+          background: url("../img/logo.png");
+          margin-left: 25px;
         }
-        a{
-          border-left: 4px solid #333333;
-          color: #fff;
-          font-family: $Lato;
+        .menu {
+          height: 100%;
+          position: relative;
+          width: 40px;
+          .fa-bars {
+            color: #fff;
+            margin-right: 25px;
+            font-size: 30px;
+            margin-top: 35px;
+          }
+          .fa-times {
+            color: #fff;
+            margin-right: 25px;
+            font-size: 30px;
+            margin-top: 35px;
+            display: none;
+          }
+          ul {
+            position: absolute;
+            right: 0px;
+            top: 100%;
+            width: 100vw;
+            background: #333333;
+            display: none;
+            max-width: 1200px;
+            li {
+              border-bottom: 2px solid #3b3b3b;
+              margin-top: 25px;
+              color: #fff;
+              padding-left: 20px;
+              vertical-align: center;
+              height: 45px;
+              font-size: 20px;
+              a {
+                border-left: 4px solid #333333;
+                color: #fff;
+                font-family: $Lato;
+              }
+              a:hover {
+                color: $mainColor;
+                border-left: 4px solid $mainColor;
+                margin-left: -21px;
+                padding-left: 21px;
+              }
+            }
+          }
         }
-        a:hover {
-          color: $mainColor;
-          border-left: 4px solid $mainColor;
-          margin-left: -21px;
-          padding-left: 21px;
+        .menu:hover ul {
+          display: flex;
+          flex-direction: column;
+        }
+        .menu:hover .fa-bars {
+          display: none;
+        }
+        .menu:hover .fa-times {
+          display: block;
         }
       }
     }
-    h1{
+    h1 {
       font-family: $Montserrat;
       font-weight: bold;
       color: #fff;
@@ -77,7 +92,7 @@
       padding: 40px 0 30px 0;
       text-align: center;
     }
-    p{
+    p {
       font-family: $Montserrat;
       color: $mainColor;
       font-size: 18px;
@@ -85,24 +100,26 @@
       padding: 0 10px 0 10px;
       text-align: center;
     }
-    span{
+    span {
       color: $grey;
       font-size: 14px;
     }
-    .button_large{
+    .button_large {
       width: 290px;
       height: 45px;
       font-size: 18px;
       font-weight: bold;
     }
-    .header-button{
+    .header-button {
       position: relative;
       top: 385px;
-      text-align: center;
-      p{
+      width: 290px;
+      margin: 0 auto;
+      p {
         color: $grey;
         font-size: 14px;
       }
     }
+
   }
 }
