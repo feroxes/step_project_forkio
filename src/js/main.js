@@ -1,3 +1,4 @@
+/*
 let burger = document.getElementById('menu');
 let dropDowm = document.getElementById('menu_drop-down');
 let bar = document.getElementById('bar');
@@ -16,3 +17,4 @@ function hide(){
     bar.style.display = 'block';
     times.style.display = 'none';
 }
+*/

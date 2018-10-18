@@ -1,0 +1,95 @@
+@media screen and (min-width: 481px) {
+  .header {
+    .container {
+      .nav-bar {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding-bottom: 10px;
+        .logo {
+          margin: 25px 0 0 20px;
+        }
+        .logo:hover {
+          background: url("../img/logo_full_hoverr.png") no-repeat;
+        }
+        .menu {
+          position: static;
+          height: 0px;
+          width: 100vw;
+          .fas {
+            display: none;
+          }
+          ul {
+            position: static;
+            display: flex;
+            flex-direction: row;
+            background: transparent;
+            justify-content: center;
+            li {
+              border: none;
+              margin-top: 0px;
+              padding: 0 15px 0 15px;
+              a {
+                color: $mainColor;
+                border-left: none;
+                font-weight: bold;
+                font-size: 16px;
+              }
+              a:hover {
+                color: #fff;
+                border: none;
+              }
+            }
+            li:first-child {
+              display: none;
+            }
+          }
+        }
+        .menu:hover ul {
+          display: flex;
+          flex-direction: row;
+        }
+        .menu:hover .fa-bars {
+          display: none;
+        }
+        .menu:hover .fa-times {
+          display: none;
+        }
+        .button {
+          margin: 25px 20px 0 0;
+        }
+        .button:hover {
+          background: #fff;
+          color: $mainColor;
+        }
+      }
+    }
+    .header-button {
+      top: 360px;
+    }
+    .header-button:hover .button_large{
+      background: #fff;
+      color: $mainColor;
+    }
+  }
+}
+
+@media screen and (min-width: 592px) {
+  .header {
+    .container{
+      .nav-bar{
+        .menu{
+          ul{
+            li{
+              padding: 0 30px 0 30px;
+            }
+          }
+        }
+      }
+    }
+
+    .header-button {
+      top: 390px;
+    }
+  }
+}
