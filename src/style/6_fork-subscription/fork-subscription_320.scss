@@ -1,0 +1,114 @@
+@media screen and (min-width: 320px) {
+  .fork-subscription {
+    background: url("../img/pricing_backgroung.png") center;
+    background-size: cover;
+    .cont {
+      padding: 0 10px;
+      h3 {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: $Montserrat;
+        color: #fff;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 50px;
+      }
+      .pricing {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+        .table {
+          width: 255px;
+          height: 460px;
+          margin-bottom: 20px;
+          &__name {
+            height: 100px;
+            background: rgba(255, 255, 255, 0.11);
+            h2 {
+              color: #fff;
+              font-size: 24px;
+              font-family: $Montserrat;
+              text-align: center;
+              line-height: 100px;
+            }
+          }
+          &__discription {
+            height: 360px;
+            background: rgba(255, 255, 255, 0.06);
+            text-align: center;
+            h1 {
+              color: #fff;
+              font-size: 60px;
+              font-family: $Montserrat;
+              font-weight: bold;
+              padding: 31px 0 24px 0;
+            }
+            span {
+              text-transform: uppercase;
+              color: #fff;
+              opacity: 0.3;
+              font-family: $Montserrat;
+              font-size: 14px;
+            }
+            hr {
+              width: 63px;
+              border: 4px solid #8d81ac;
+              margin: 37px auto 30px auto;
+
+            }
+            p {
+              color: #fff;
+              font-family: $Montserrat;
+              font-size: 16px;
+              line-height: 28px;
+              height: 44px;
+            }
+            button {
+              width: 161px;
+              height: 42px;
+              background: rgba(255, 255, 255, 0.7);
+              border: 1px solid transparent;
+              border-radius: 50px;
+              text-transform: uppercase;
+              font-family: $Montserrat;
+              font-size: 15px;
+              font-weight: bold;
+              color: #7f6d78;
+              margin-top: 35px;
+
+            }
+          }
+        }
+        .table--dark {
+          width: 301px;
+          height: 563px;
+          .table__name {
+            height: 114px;
+            background: rgba(0, 0, 0, 0.35);
+          }
+          .table__discription {
+            height: 449px;
+            background: rgba(0, 0, 0, 0.3);
+            h1{
+              font-size: 82px;
+              padding: 14px 0 21px 0;
+            }
+            hr{
+              margin: 47px auto 40px auto;
+            }
+            button{
+              width: 193px;
+              height: 55px;
+              margin-top: 80px;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
