@@ -2,6 +2,9 @@
   .people-are-talking{
     background: url("../img/aboutBackgroung.png") center;
     background-size: cover;
+    .gradientBackground{
+      background-image: linear-gradient(transparent, #4a3b4f);
+    }
     .cont{
       max-width: 1200px;
       margin: 0 auto;
@@ -49,14 +52,9 @@
         margin: 0 auto;
         display: none;
       }
-      .gradientBackground{
-        width: 100%;
-        height: 100px;
-        background-image: linear-gradient(transparent, #4a3b4f);
-        hr{
-          max-width: 90%;
-          border: 1px solid #645766;
-        }
+      hr{
+        max-width: 90%;
+        border: 1px solid #645766;
       }
     }
   }
