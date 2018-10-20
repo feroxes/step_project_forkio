@@ -47,6 +47,12 @@
         font-weight: 400;
         margin: 21px 0 42px 0;
       }
+
+      .subscribeCallButton:hover {
+        border: 1px solid #8d81ac;
+        background-color: #ffffff;
+        color: #8d81ac;
+      }
     }
   }
 }
