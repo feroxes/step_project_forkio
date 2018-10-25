@@ -1,6 +1,6 @@
 @media screen and (min-width: 320px){
 
-  .footer {
+  footer {
 
     .container {
 
@@ -61,10 +61,15 @@
             margin-left: 20px;
             width: 110px;
 
-            li:hover {
-              text-decoration: underline;
-              color: #8d81ac;
-              cursor: pointer;
+            li{
+
+              a {
+                @include footerText;
+              }
+              a:hover {
+                text-decoration: underline;
+                color: #8d81ac;
+              }
             }
           }
         }
@@ -72,11 +77,14 @@
         .contacts {
 
           &__nmbr {
-            color: #31384d;
-            font-family: $Montserrat;
-            font-size: 30px;
-            font-weight: 700;
             margin: 36px 0 15px 20px;
+
+            a {
+              color: #31384d;
+              font-family: $Montserrat;
+              font-size: 30px;
+              font-weight: 700;
+            }
           }
 
           &__hours {

@@ -53,6 +53,7 @@
             font-size: 16px;
             font-weight: 400;
             line-height: 32px;
+            padding-top: 8px;
           }
         }
       }
@@ -62,6 +63,10 @@
         position: absolute;
         top: 175px;
         left: 5%;
+
+        &:hover {
+          cursor: pointer;
+        }
       }
 
       .fa-chevron-right {
@@ -69,6 +74,10 @@
         position: absolute;
         top: 175px;
         right: 5%;
+
+        &:hover {
+          cursor: pointer;
+        }
       }
 
       .socialMedia {
@@ -112,6 +121,7 @@
 
             & {
               background-color: #2b414d;
+              cursor: pointer;
             }
           }
 
@@ -161,6 +171,7 @@
 
             & {
               background-color: #ffffff;
+              cursor: pointer;
             }
           }
 
@@ -210,6 +221,7 @@
 
             & {
               background-color: #ffffff;
+              cursor: pointer;
             }
           }
 
