@@ -43,11 +43,7 @@ var config = {
     server: {
         baseDir: "./"
     },
-    tunnel: true,
-    host: 'localhost',
-    port: 9000,
-    logPrefix: "feroxes"
-};
+    };
 
 gulp.task('html:build', function(){
     return gulp.src(path.src.html)

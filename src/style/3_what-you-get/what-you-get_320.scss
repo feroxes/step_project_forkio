@@ -1,11 +1,13 @@
 .container {
   margin: 0 auto;
   max-width: 1200px;
+  min-width: 320px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen {
   .what-you-get {
     background-color: #f4f4f4;
+    min-width: 320px;
 
     .container {
 

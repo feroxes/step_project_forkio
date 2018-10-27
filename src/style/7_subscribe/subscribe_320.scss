@@ -1,7 +1,8 @@
-@media screen and (min-width: 320px) {
+@media screen {
   .subscribe {
     background-color: #f4f4f4;
     text-align: center;
+    min-width: 320px;
 
     .container {
 
