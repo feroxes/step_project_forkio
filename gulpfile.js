@@ -43,7 +43,6 @@ var config = {
     server: {
         baseDir: "./"
     },
-    tunnel: true,
     host: 'localhost',
     port: 9000,
     logPrefix: "feroxes"

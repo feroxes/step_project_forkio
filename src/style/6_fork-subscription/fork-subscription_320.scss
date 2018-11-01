@@ -1,5 +1,6 @@
-@media screen and (min-width: 320px) {
+@media screen{
   .fork-subscription {
+    min-width: 320px;
     background: url("../img/pricing_backgroung.png") center;
     background-size: cover;
     .cont {
@@ -69,15 +70,15 @@
             button {
               width: 161px;
               height: 42px;
-              background: rgba(255, 255, 255, 0.7);
+              background: rgba(119, 107, 121, 0.6);
               border: 1px solid transparent;
               border-radius: 50px;
               text-transform: uppercase;
               font-family: $Montserrat;
               font-size: 15px;
-              font-weight: bold;
-              color: #7f6d78;
+              color: #fff;
               margin-top: 35px;
+              cursor: pointer;
 
             }
           }
