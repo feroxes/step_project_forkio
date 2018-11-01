@@ -1,10 +1,12 @@
-@media screen and (min-width: 320px) {
+@media screen{
   #contain{
     max-width: 100%;
+    min-width: 320px;
   }
   .header {
+    min-width: 320px;
     height: 720px;
-    width: 100vw;
+    width: 100%;
     background: url("../img/head_backgroud.png") center;
     background-size: cover;
     margin: 0 auto;
@@ -34,13 +36,13 @@
           width: 40px;
           .fa-bars {
             color: #fff;
-            margin-right: 25px;
+            margin-right: 10px;
             font-size: 30px;
             margin-top: 35px;
           }
           .fa-times {
             color: #fff;
-            margin-right: 25px;
+            margin-right: 10px;
             font-size: 30px;
             margin-top: 35px;
             display: none;
@@ -66,7 +68,7 @@
                 color: #fff;
                 font-family: $Lato;
               }
-              a:hover {
+              a:active {
                 color: $mainColor;
                 border-left: 4px solid $mainColor;
                 margin-left: -21px;
@@ -121,6 +123,7 @@
       p {
         color: $grey;
         font-size: 14px;
+        margin-top: 20px;
       }
     }
 

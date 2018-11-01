@@ -43,7 +43,8 @@ var config = {
     server: {
         baseDir: "./"
     },
-    };
+};
+
 
 gulp.task('html:build', function(){
     return gulp.src(path.src.html)
