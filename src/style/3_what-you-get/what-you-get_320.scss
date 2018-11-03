@@ -4,6 +4,10 @@
   min-width: 320px;
 }
 
+button {
+  outline: none;
+}
+
 @media screen {
   .what-you-get {
     background-color: #f4f4f4;
